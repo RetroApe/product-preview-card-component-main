@@ -160,6 +160,11 @@ h1 {
         margin-right: 0.5rem;
     }
 
+    &:hover {
+        cursor: pointer;
+        background-color: var(--wery-dark-blue);
+    }
+
     /* &::before {
         content: url(images/icon-cart.svg);
         padding-right: 0.875rem;
